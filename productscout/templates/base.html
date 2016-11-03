@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    {% load static from staticfiles %}
+
+    {% block title %}
+    <title>productscout</title>
+    {% endblock %}
+
+    {% block meta %}
+    <meta charset='utf-8'/>
+    {% endblock %}
+
+    {% block icons %}
+    <link rel='shortcut icon' href='{% static "favicon.png" %}'/>
+    {% endblock %}
+
+    {% block fonts %}
+    {% endblock %}
+
+    {% block styles %}
+    <link rel='stylesheet' href='{% static "stylesheets/application.css" %}'>
+    {% endblock %}
+
+    {% block head_scripts %}
+    {% endblock %}
+
+    {% block head %}
+    {% endblock %}
+  </head>
+  <body>
+    {% block body %}
+    {% endblock %}
+
+    {% block body_scripts %}
+    {% endblock %}
+  </body>
+</html>

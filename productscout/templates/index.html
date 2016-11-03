@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static from staticfiles %}
+
+{% block body %}
+<h1>
+	Welcome to ProductScout! Let's look at some products!
+</h1>
+{% endblock %}
+
+{% block body_scripts %}
+<script src='{% static "javascripts/application.js" %}'></script>
+{% endblock %}
